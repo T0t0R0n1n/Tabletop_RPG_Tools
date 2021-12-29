@@ -42,12 +42,12 @@ Names are tied to Gender, Culture, and Background, and all data had been conveni
 **NOTES:** This function uses the [rollr package designed by Felixmil](https://github.com/Felixmil/rollR) to stimulate dice rolls and bonuses and may require downloading additional packages in its current state (notes included in the script).  
 
 **FUTURE DIRECTIONS:** Ultimately, I would like to expand this to a point where it could function as a fully-fledged large-scale battle simulator with input from the character sims as well. Future updates will aim to:  
-COMPLETE) provide an option to specify when the battle should end, whether that be after a certain number of rounds or once one group has been fully decimated. This would allow users to monitor a battle round by round or just jump straight to the end result.
-2) make engagement more complex, taking into account positions within space and simple strategic considerations (e.g., low health, high AC).
-3) build the option to simulate battles that include ranged physical combatants. 
-4) provide conditions to use items (i.e., health potions) or take strategic actions (i.e., disengage, take cover).
-5) integrate the ability to use unique class features or abilitites. 
-6) integrate influence from support characters that may buff or heal combatants.
-7) provide options to specify simple strategies that groups can use (e.g., flanking, ganging up, retreat at certain thresholds).
-8) build the option to simulate battles that include magic-using combatants.
-9) provide the option to bootstrap mutiple simulations and find the most likely outcome across several iterations.
+COMPLETE) provide an option to specify when the battle should end, whether that be after a certain number of rounds or once one group has been fully decimated. This would allow users to monitor a battle round by round or just jump straight to the end result.  
+2) make engagement more complex, taking into account positions within space and simple strategic considerations (e.g., low health, high AC).  
+3) build the option to simulate battles that include ranged physical combatants.   
+4) provide conditions to use items (i.e., health potions) or take strategic actions (i.e., disengage, take cover).  
+5) integrate the ability to use unique class features or abilitites.   
+6) integrate influence from support characters that may buff or heal combatants.  
+7) provide options to specify simple strategies that groups can use (e.g., flanking, ganging up, retreat at certain thresholds).  
+8) build the option to simulate battles that include magic-using combatants.  
+9) provide the option to bootstrap mutiple simulations and find the most likely outcome across several iterations.  
