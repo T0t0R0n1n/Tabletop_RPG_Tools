@@ -17,7 +17,7 @@ Names are tied to Gender, Culture, and Background, and all data had been conveni
 
 **FUTURE DIRECTIONS:** Future updates will aim to expand upon character simulation by adding more conventional (e.g., Race, Class, Height) and non-conventional characteristic options (e.g., Social connections, Occupational skills, Origins) to simulate. I also would like to continue to weigh the probability of generating these details based upon other concurrent details. For example, to be more realistic, the probability of generating characters of any given level should be exponentially inversely proportional to their level. Furthermore, it may be the case that characters of traditionally larger, bulky races may be more predisposed to classes and occupations where their size may come in handy (i.e., smithing, soldiers, manual labor). 
 
-# **BattleSim**
+# **CombatSim**
 
 **Summary:** A basic function which will simulate simple, melee combat between two or more opposing groups. The function only demands specification of the names of at least two groups (```Groups```), but allows grants the user the optional control to specify:  
 1) Attack Bonuses,  
@@ -31,7 +31,7 @@ It will output a summary dataframe containing which combatants are still alive a
 
 **FUTURE DIRECTIONS:** Ultimately, I would like to expand this to a point where it could function as a fully-fledged large-scale battle simulator. Future updates will aim to:  
 1) provide an option to specify when the battle should end, whether that be after a certain number of rounds or once one group has been fully decimated. This would allow users to monitor a battle round by round or just jump straight to the end result.
-2) expand the number of relevant variables to include weapons, shields, & ranges.
+2) expand the number of relevant variables to include weapons, shields, & ranges and correct initative rolls to better approximate that which would occur in a real tabletop RPG situation.
 3) integrate the PersonSim and BattleSim packages so that users can conveniently and quickly simulate brand-new warriors with unique AC, HP, bonuses, and other relevant. variables. Variables could be constrained as much as desired.
 4) make engagement more complex, taking into account positions within space and simple strategic considerations (e.g., low health, high AC).
 5) build the option to simulate battles that include ranged physical combatants. 
