@@ -93,7 +93,7 @@ df$Sex <- sample(c(unique(df_first$Sex),"Nonbinary"),
                  replace = TRUE, 
 # To better approach reality, the distribution of these sexes is not equal by default.
                  prob = c((1-pMale -pNonbinary), #Probabiliy of generating a female character
-                          (1-pNonBinary-pFemale), #Probability of generating a male character
+                          (1-pNonbinary-pFemale), #Probability of generating a male character
                           (1-pMale-pFemale))) #Probability of generating a nonbinary character
 
 # Now R will randomly sample first and last names for each person based upon the background details simulated in the previous steps. So, for example, the list of possible first names will be constrained by the sex and culture of the character.
